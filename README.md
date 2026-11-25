@@ -35,6 +35,8 @@ Guards: shared review key (spam filter only, it is public), `localember/<repo>` 
 
 ## Config
 
+Live endpoint (deployed 2026-11-24): `https://script.google.com/macros/s/AKfycbwzMiuaZWsluc-3NdY9x2ea9jwLB9ZA8WYRD8Up0lbDumCoBaktIemtgh2uFHBAtJ1G/exec`
+
 `CONFIG.ENDPOINT` at the top of `review-comments.js` is the web app `/exec` URL (not a secret). If it is empty,
 comments are kept in the reviewer's browser and sent on a later visit once the endpoint is set.
 

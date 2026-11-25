@@ -8,7 +8,7 @@
 
   // ---- config (one place). ENDPOINT is the Apps Script web app /exec URL; KEY is a spam filter, not a secret.
   var CONFIG = {
-    ENDPOINT: '',
+    ENDPOINT: 'https://script.google.com/macros/s/AKfycbwzMiuaZWsluc-3NdY9x2ea9jwLB9ZA8WYRD8Up0lbDumCoBaktIemtgh2uFHBAtJ1G/exec',
     KEY: 'le-review-7f3a'
   };
   var over = window.LE_REVIEW_CONFIG || {};
